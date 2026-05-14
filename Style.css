@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #308334;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+nav {
+    background-color: #3a8d3e;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #2e7d32;
+}
+.calculator {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+}
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #1b5e20;
+}
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
